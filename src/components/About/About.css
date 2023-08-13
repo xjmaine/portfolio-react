@@ -49,7 +49,7 @@
     cursor: default;
 }
 
-.about_icone{
+.about__icon{
     color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;

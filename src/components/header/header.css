@@ -39,7 +39,8 @@ header{
 
 /* image: me */
 .me{
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(var(--color-primary-variant), transparent);
+    /* background: linear-gradient(#e6dede00, transparent); */
     width: 22rem;
     height: 50rem;
     position: absolute;
