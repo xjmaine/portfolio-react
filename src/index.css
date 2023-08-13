@@ -63,9 +63,9 @@ section{
     height: 100vh;
 }
 
-section > h2, section >h5{
+section > h2, section > h5{
     text-align: center;
-    color: var(--color-bg);
+    color: var(--color-light);
 }
 
 section > h2 {
@@ -115,7 +115,7 @@ img{
     object-fit: cover;
 }
 
-/* media queries (Medium devices) */
+/* media queries (Medium devices) - tablets */
 @media screen and (max-width:1024px){
     .container{
         width: var(--container-width-md);
@@ -133,6 +133,6 @@ img{
     }
 
     section>h2{
-        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 }
