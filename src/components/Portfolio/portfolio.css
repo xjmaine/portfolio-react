@@ -5,7 +5,7 @@
 
 }
 
-.portfolio__frontend > div{
+.portfolio_container > div{
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
@@ -13,7 +13,7 @@
     transition: var(--transition);
 }
 
-.portfolio__frontend > div:hover{
+.portfolio_container > div:hover{
     background: transparent;
     border-color: var(--color-bg-variant);
     cursor: default;
@@ -28,4 +28,10 @@
 .skills_content{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+} 
+
+.skill_details{
+    display: flex;
+    gap: 1rem;
 }

@@ -3,7 +3,9 @@ import './elevator.css'
 const Elevator = () => {
   return (
     <div>
-      <sectopn id='elevator'>Elevator</sectopn>
+      <sectopn id='elevator'>
+        
+      </sectopn>
     </div>
   )
 }
