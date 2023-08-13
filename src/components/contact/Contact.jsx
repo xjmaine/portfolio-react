@@ -3,8 +3,26 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {FaGithub} from 'react-icons/fa'
 import {BsClipboard2Data} from 'react-icons/bs'
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_skc8lt1', 'template_irb540w', form.current, 'jqGz07MPQH7japMpE')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset()
+  };
+
+
   return (
     <div>
       <section id='contact'>
@@ -35,7 +53,7 @@ const Contact = () => {
             </article>
           </div>
           {/* end of contact options */}
-          <form action="">
+          <form ref={form} onSubmit={sendEmail}>
             <input type="text" name='name' placeholder='Your full name' required/>
             <input type="email" name='email' placeholder='Your email' required />
             <textarea name="message"  rows="7" placeholder='Your Message' required></textarea>
