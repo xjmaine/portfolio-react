@@ -17,7 +17,7 @@ const Portfolio = () => {
             <h3>Frontend / backend Skills</h3>
             <div className="skills_content">
               <article className='skill_details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='skill_details-icon'/>
                 <div>
                 <h4>Java Core</h4>
                 <small className='text-light'>Experienced</small>
@@ -25,7 +25,7 @@ const Portfolio = () => {
               </article>
               {/*  */}
               <article className='skill_details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='skill_details-icon'/>
                 <div>
                 <h4>Spring Boot</h4>
                 <small className='text-light'>Intermediate</small>
@@ -33,7 +33,7 @@ const Portfolio = () => {
               </article>
               {/*  */}
               <article className='skill_details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='skill_details-icon'/>
                 <div>
                 <h4>HTML5/CSS</h4>
                 <small className='text-light'>Experienced</small>
@@ -41,7 +41,7 @@ const Portfolio = () => {
               </article>
               {/*  */}
               <article className='skill_details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='skill_details-icon'/>
                   <div>
                   <h4>React</h4>
                 <small className='text-light'>Beginner</small>
@@ -49,7 +49,7 @@ const Portfolio = () => {
               </article>
               {/*  */}
               <article className='skill_details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='skill_details-icon'/>
                 <div>
                 <h4>Data Science</h4>
                 <small className='text-light'>Beginner</small>
@@ -62,7 +62,7 @@ const Portfolio = () => {
           <h3>Projects</h3>
           <div className="skills_content">
               <article className='skill_details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='skill_details-icon'/>
                 <div>
                 <h4>ALX-Month 2 Project</h4>
                 <small className='text-light'>
@@ -72,7 +72,7 @@ const Portfolio = () => {
               </article>
               {/*  */}
               <article className='skill_details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='skill_details-icon'/>
                   <div>
                   <h4>RDD - Main</h4>
                 <small className='text-light'>Spring Boot Project</small>
@@ -80,7 +80,7 @@ const Portfolio = () => {
               </article>
               {/*  */}
               <article className='skill_details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='skill_details-icon'/>
                     <div>
                     <h4>K. Zorre - Main</h4>
                     <small className='text-light'>Wordpress Project</small>
@@ -88,7 +88,7 @@ const Portfolio = () => {
               </article>
               {/*  */}
               <article className='skill_details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='skill_details-icon'/>
                 <div>
                 <h4>Portfolio</h4>
                 <small className='text-light'>React Project</small>
@@ -96,7 +96,7 @@ const Portfolio = () => {
               </article>
               {/*  */}
               <article className='skill_details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='skill_details-icon'/>
                 <div>
                 <h4>Health Data Models</h4>
                 <small className='text-light'>Data Science Project</small>

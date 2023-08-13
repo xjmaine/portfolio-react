@@ -12,7 +12,7 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
-
+ 
 .portfolio_container > div:hover{
     background: transparent;
     border-color: var(--color-bg-variant);
@@ -34,4 +34,40 @@
 .skill_details{
     display: flex;
     gap: 1rem;
+}
+
+.skill_details-icon{
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+/* Media Queries: tablet */
+@media screen and (max-width: 1024px){ 
+    .portfolio_container{
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio_container > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .skills_content{
+        padding: 1rem;
+    }
+}
+
+
+
+/* Media Queries: small devices */
+@media screen and (max-width: 600px){ 
+    .portfolio_container{
+        gap:1rem;
+    }
+
+    .portfolio_container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
 }

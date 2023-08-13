@@ -5,7 +5,7 @@ import { BiCheck } from 'react-icons/bi'
 const Elevator = () => {
   return (
     <div>
-      <sectopn id='elevator'>
+      <section id='elevators'>
         <h5>Elevator Pitch</h5>
         <h2>show case</h2>
 
@@ -62,7 +62,7 @@ const Elevator = () => {
           {/* End of card */}
 
         </div>
-      </sectopn>
+      </section>
     </div>
   )
 }
