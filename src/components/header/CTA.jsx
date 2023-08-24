@@ -5,7 +5,7 @@ function CTA() {
   return (
     <div className='cta'>
       <a href={CV} download className='btn'>View Bio</a>
-      <a href="https://www.linkedin.com/in/freddie-j-420660b3/" target="_blank" className='btn btn-primary'>My LinkedIn Profile</a>
+      <a href="https://youtu.be/l9KC7eISpUU?feature=shared" target="_blank" className='btn btn-primary'>Elevator Pitch</a>
     </div>
   )
 }

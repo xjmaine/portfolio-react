@@ -12,17 +12,17 @@ const Elevator = () => {
         <div className="container elevator__container">
           <article className='service'>
             <div className="elevator__head">
-              <h3>Pitch 1</h3>
+              <h3>Elevator Pitch</h3>
             </div>
             <ul className='elevator__list'>
               <li>
                 <BiCheck className='elevator__list-icon'/>
-                <p>Empty Pitch Link</p>
+                <p><a href="https://youtu.be/l9KC7eISpUU?feature=shared" target='_blank'>View</a></p>
               </li>
-              <li>
+              {/* <li>
                 <BiCheck className='elevator__list-icon'/>
                 <p>Empty Pitch Link</p>
-              </li>
+              </li> */}
             </ul>
           </article>
           {/* End of card */}
